@@ -1,0 +1,6 @@
+{
+  "name": "Andrïl Esteves Portfolio",
+  "description": "Portfólio de design, 3D, motion e web de Andrïl Esteves, com vitrine interativa de projetos e consultoria de briefing por IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

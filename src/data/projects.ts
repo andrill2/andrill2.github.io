@@ -1,0 +1,201 @@
+import { Project } from "../types";
+
+/**
+ * Fonte de dados dos projetos (estática, embutida no build).
+ * Usada tanto pelo front-end quanto pelo servidor local.
+ * Editar aqui para adicionar/remover/corrigir projetos.
+ */
+export const projects: Project[] = [
+  {
+    id: "incast-studio",
+    title: "Incast Studio",
+    category: "Web",
+    subtitle: "Site Desenvolvido",
+    imageUrl: "https://image.thum.io/get/width/1200/crop/900/https://incast-studio-978682563954.us-east1.run.app/",
+    altText: "Captura de tela do site Incast Studio desenvolvido por Andril Esteves.",
+    year: "2025",
+    description: "Site desenvolvido e publicado (Google Cloud Run). Interface e front-end criados do zero.",
+    tech: ["Web", "Front-end", "Cloud Run"],
+    link: "https://incast-studio-978682563954.us-east1.run.app/",
+    isCustom: false
+  },
+  {
+    id: "frizz",
+    title: "Frizz",
+    category: "Embalagem",
+    subtitle: "Embalagem de Bebida",
+    imageUrl: "/mockups/refri-01.png",
+    altText: "Mockup das latas de refrigerante Frizz, coloridas, com respingos de fruta.",
+    year: "2026",
+    description: "Identidade e embalagem da linha de refrigerantes 'Frizz' — logo divertido e sistema de cores vibrante por sabor, com direção de arte para campanha e ponto de venda.",
+    tech: ["Embalagem", "Branding", "Direção de Arte"],
+    isCustom: false
+  },
+  {
+    id: "lua-skincare",
+    title: "Lúa Skincare",
+    category: "Embalagem",
+    subtitle: "Cosmético / Beleza",
+    imageUrl: "/mockups/beleza-01.png",
+    altText: "Mockup do sérum e pote de creme da marca Lúa sobre mármore.",
+    year: "2026",
+    description: "Identidade e embalagem da linha de skincare 'Lúa' — logotipo em serifa elegante, paleta terrosa e acabamento fosco minimalista.",
+    tech: ["Embalagem", "Branding", "Beleza"],
+    isCustom: false
+  },
+  {
+    id: "aurelia",
+    title: "Aurélia",
+    category: "Embalagem",
+    subtitle: "Beleza / Luxo",
+    imageUrl: "/mockups/cosmeticos-01.png",
+    altText: "Flat lay da linha de cosméticos Aurélia com tampas douradas sobre cetim.",
+    year: "2026",
+    description: "Direção de arte e embalagem da linha de cosméticos premium 'Aurélia' — logotipo dourado, tons pastel e superfície de cetim para reforçar a sofisticação.",
+    tech: ["Embalagem", "Branding", "Beleza"],
+    isCustom: false
+  },
+  {
+    id: "lata",
+    title: "Lata",
+    category: "3D",
+    subtitle: "Render 3D",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/edc588222736177.Y3JvcCwxMDgwLDg0NCwwLDUzNw.png",
+    altText: "Projeto 3D 'Lata' de Andril Esteves.",
+    year: "2025",
+    description: "Projeto de modelagem/render 3D. Ver galeria completa no Behance.",
+    tech: ["Blender", "3D", "Render"],
+    link: "https://www.behance.net/gallery/222736177/Lata",
+    isCustom: false
+  },
+  {
+    id: "procedural-hibiscus",
+    title: "Procedural Hibiscus",
+    category: "3D",
+    subtitle: "Arte Procedural 3D",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/c8a8f6163795319.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png",
+    altText: "Hibisco gerado proceduralmente em 3D por Andril Esteves.",
+    year: "2023",
+    description: "Estudo de geração procedural — flor de hibisco construída via nós/geometria procedural.",
+    tech: ["Procedural", "Blender", "3D"],
+    link: "https://www.behance.net/gallery/163795319/Procedural-Hibiscus",
+    isCustom: false
+  },
+  {
+    id: "rocket",
+    title: "Rocket",
+    category: "3D",
+    subtitle: "Render 3D",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/9c4075187617369.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png",
+    altText: "Projeto 3D 'Rocket' de Andril Esteves.",
+    year: "2023",
+    description: "Modelagem e render 3D. Ver galeria completa no Behance.",
+    tech: ["Blender", "3D", "Render"],
+    link: "https://www.behance.net/gallery/187617369/Rocket",
+    isCustom: false
+  },
+  {
+    id: "boxxes",
+    title: "Boxxes",
+    category: "3D",
+    subtitle: "Render 3D",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/db6042136509355.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png",
+    altText: "Projeto 3D 'Boxxes' de Andril Esteves.",
+    year: "2022",
+    description: "Estudo/render 3D. Ver galeria completa no Behance.",
+    tech: ["Blender", "3D", "Render"],
+    link: "https://www.behance.net/gallery/136509355/Boxxes",
+    isCustom: false
+  },
+  {
+    id: "xadrez",
+    title: "Xadrez",
+    category: "3D",
+    subtitle: "Render 3D",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/44d8cd134872895.Y3JvcCw5NjUsNzU1LDg2LDA.png",
+    altText: "Cena de xadrez em 3D por Andril Esteves.",
+    year: "2022",
+    description: "Cena de xadrez em 3D. Ver galeria completa no Behance.",
+    tech: ["Blender", "3D", "Render"],
+    link: "https://www.behance.net/gallery/134872895/Xadrez",
+    isCustom: false
+  },
+  {
+    id: "dog-3d",
+    title: "Dog 3D",
+    category: "Motion",
+    subtitle: "Teste de Animação 3D",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/fbd4d3187617213.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png",
+    altText: "Teste de animação 3D de um cachorro por Andril Esteves.",
+    year: "2023",
+    description: "Teste de animação 3D. Ver vídeo/galeria completa no Behance.",
+    tech: ["Blender", "Animação", "3D"],
+    link: "https://www.behance.net/gallery/187617213/Dog-3d-Test-Animation",
+    isCustom: false
+  },
+  {
+    id: "peixe-procedural",
+    title: "Peixe Procedural",
+    category: "Motion",
+    subtitle: "Animação Procedural",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/2725b9195016255.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png",
+    altText: "Animação procedural de peixe por Andril Esteves.",
+    year: "2024",
+    description: "Animação procedural. Ver vídeo/galeria completa no Behance.",
+    tech: ["Procedural", "Blender", "Animação"],
+    link: "https://www.behance.net/gallery/195016255/Peixe-Animacao-Procedural",
+    isCustom: false
+  },
+  {
+    id: "intro-talentos",
+    title: "Intro Talentos",
+    category: "Motion",
+    subtitle: "Vinheta / Motion",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/51f95780504471.Y3JvcCwyMzY1LDE4NTAsMzA0LDA.jpg",
+    altText: "Vinheta de abertura 'Intro Talentos' por Andril Esteves.",
+    year: "2019",
+    description: "Vinheta / abertura em motion graphics. Ver galeria completa no Behance.",
+    tech: ["After Effects", "Motion Graphics"],
+    link: "https://www.behance.net/gallery/80504471/Intro-Talentos",
+    isCustom: false
+  },
+  {
+    id: "vineta",
+    title: "Vineta",
+    category: "Motion",
+    subtitle: "Vinheta / Motion",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/afc1a3157654809.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png",
+    altText: "Projeto de vinheta 'Vineta' por Andril Esteves.",
+    year: "2023",
+    description: "Vinheta / motion. Ver galeria completa no Behance.",
+    tech: ["After Effects", "Motion Graphics"],
+    link: "https://www.behance.net/gallery/157654809/Vineta",
+    isCustom: false
+  },
+  {
+    id: "acheron-raiden-mei",
+    title: "Acheron & Raiden Mei",
+    category: "Ilustração",
+    subtitle: "Ilustração de Personagens",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/79ce60197102823.Y3JvcCwzOTI3LDMwNzIsMzIwLDA.jpg",
+    altText: "Ilustração dos personagens Acheron e Raiden Mei por Andril Esteves.",
+    year: "2024",
+    description: "Ilustração de personagens (fan art). Ver galeria completa no Behance.",
+    tech: ["Ilustração", "Photoshop", "Digital Art"],
+    link: "https://www.behance.net/gallery/197102823/Acheron-Raiden-mei-Illustration",
+    isCustom: false
+  },
+  {
+    id: "uniterapy",
+    title: "Uniterapy",
+    category: "Web",
+    subtitle: "Protótipo de Interface",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/80dbd591877299.Y3JvcCwxOTIwLDE1MDEsMCww.png",
+    altText: "Protótipo de interface do projeto Uniterapy por Andril Esteves.",
+    year: "2019",
+    description: "Protótipo de interface / UI. Ver galeria completa no Behance.",
+    tech: ["UI Design", "Protótipo", "Web"],
+    link: "https://www.behance.net/gallery/91877299/Prototipo-Uniterapy",
+    isCustom: false
+  }
+];

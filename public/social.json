@@ -1,0 +1,76 @@
+[
+  {
+    "id": "dh-law",
+    "label": "DH Law",
+    "segment": "Advocacia",
+    "images": [
+      "/clientes/dh-law/DH%20POST%203_0702.png",
+      "/clientes/dh-law/DH%20POST%204_0801.png",
+      "/clientes/dh-law/DH%20POST%205_1005.png",
+      "/clientes/dh-law/DH%20POST%206_1602.png",
+      "/clientes/dh-law/DH%20POST%208_2002.png",
+      "/clientes/dh-law/DH%20POST%209_2404.png",
+      "/clientes/dh-law/DH%20POST%20BLOG.png"
+    ]
+  },
+  {
+    "id": "grupo-casco",
+    "label": "Grupo Casco",
+    "segment": "Comércio Exterior & Logística",
+    "images": [
+      "/clientes/grupo-casco/CASCO%20POST%201_0306.png",
+      "/clientes/grupo-casco/CASCO%20POST%2020506.png",
+      "/clientes/grupo-casco/CASCO%20POST%202_0505.png",
+      "/clientes/grupo-casco/CASCO%20POST%206_1506.png",
+      "/clientes/grupo-casco/CASCO%20POST%206_1607.png",
+      "/clientes/grupo-casco/CASCO%20POST%208_2006.png",
+      "/clientes/grupo-casco/CASCO%20POST%20EXTRA%20-%20Discriminacao%20Racial%20v2.png",
+      "/clientes/grupo-casco/CASCO%20POST%20RH%202.png"
+    ]
+  },
+  {
+    "id": "lavoutique",
+    "label": "Lavoutique",
+    "segment": "Lavanderia & Costura",
+    "images": [
+      "/clientes/lavoutique/LAVOUTIQUE%20POST%202_0506.png",
+      "/clientes/lavoutique/LAVOUTIQUE%20POST%207_2306.png",
+      "/clientes/lavoutique/Lavoutique-junho-2026-carrosel-1_08.png",
+      "/clientes/lavoutique/POST%2004.png",
+      "/clientes/lavoutique/POST%2006.png",
+      "/clientes/lavoutique/POST%2007.png",
+      "/clientes/lavoutique/lavoutique_01.png"
+    ]
+  },
+  {
+    "id": "kgd-online",
+    "label": "KGD Online",
+    "segment": "Contabilidade Online",
+    "images": [
+      "/clientes/kgd-online/KGD%20ONLINE%20-%20POST%201%200807.png",
+      "/clientes/kgd-online/KGD%20ONLINE%20-%20POST%201_0404.png",
+      "/clientes/kgd-online/KGD%20ONLINE%20-%20POST%202_0804.png",
+      "/clientes/kgd-online/KGD%20ONLINE%20-%20POST%205_1904.png",
+      "/clientes/kgd-online/KGD-ONLINE---POST-2-0706_01.png",
+      "/clientes/kgd-online/POST%202%200605%20(1).png",
+      "/clientes/kgd-online/thumb%20video.png"
+    ]
+  },
+  {
+    "id": "workplay",
+    "label": "Workplay",
+    "segment": "Coworking & Escritórios",
+    "images": []
+  },
+  {
+    "id": "estudio",
+    "label": "estudio",
+    "segment": "",
+    "images": [
+      "/clientes/estudio/post-cafe.png",
+      "/clientes/estudio/post-corporativo.png",
+      "/clientes/estudio/post-fitness.png",
+      "/clientes/estudio/post-moda.png"
+    ]
+  }
+]
