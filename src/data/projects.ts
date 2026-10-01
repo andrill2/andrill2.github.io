@@ -197,5 +197,44 @@ export const projects: Project[] = [
     tech: ["UI Design", "Protótipo", "Web"],
     link: "https://www.behance.net/gallery/91877299/Prototipo-Uniterapy",
     isCustom: false
+  },
+  {
+    id: "runtrip",
+    title: "RUNTRIP — Corrida & Turismo",
+    category: "Motion",
+    subtitle: "Motion Design · IA",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/project_modules/hd/eef008256530173.6abe9e0dc59b8.png",
+    altText: "Peça de motion design com IA criada para a marca RUNTRIP.",
+    year: "2026",
+    description: "Projeto audiovisual criado para a RUNTRIP, explorando a energia da corrida como ponto de partida para experiências de turismo, movimento e descoberta. O case reúne filmes gerados com IA e uma linha visual editorial para apresentar a essência da marca: correr para ir além.",
+    tech: ["Motion Design", "IA Generativa", "Branding"],
+    link: "https://www.behance.net/gallery/256530173/RUNTRIP-Corrida-Turismo",
+    isCustom: false
+  },
+  {
+    id: "ksenia",
+    title: "KSENIA — Character Design & Motion System",
+    category: "3D",
+    subtitle: "Personagem 3D · Motion",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/31df16256530935.Y3JvcCwxMjAzLDk0MSwyMzUsMA.png",
+    altText: "Personagem 3D Ksenia, criada para a marca KGD Online.",
+    year: "2026",
+    description: "Ksenia é a personagem 3D criada para aproximar a comunicação da KGD Online. O projeto transforma informação em presença: um sistema de personagem com expressões, gestos, vistas técnicas, malha e aplicações em motion.",
+    tech: ["Character Design", "3D", "Motion"],
+    link: "https://www.behance.net/gallery/256530935/KSENIA-Character-Design-Motion-System",
+    isCustom: false
+  },
+  {
+    id: "jobster",
+    title: "JOBSTER — 3D Character & Motion System",
+    category: "3D",
+    subtitle: "Personagem 3D · Motion",
+    imageUrl: "https://mir-s3-cdn-cf.behance.net/projects/404/d20b27256534065.Y3JvcCwxMzA5LDEwMjQsMTEzLDA.jpg",
+    altText: "Personagem 3D Jobster, mascote desenvolvido para comunicação de operações.",
+    year: "2026",
+    description: "Jobster é um personagem 3D desenvolvido para transformar a comunicação de operações em presença, ritmo e ação. O case reúne modelagem, estudos de Blender, renders, aplicações visuais e uma série de peças em movimento que expandem o mascote em diferentes pontos de contato da marca.",
+    tech: ["Blender", "3D Character", "Motion"],
+    link: "https://www.behance.net/gallery/256534065/JOBSTER-3D-Character-Motion-System",
+    isCustom: false
   }
 ];
