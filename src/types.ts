@@ -14,6 +14,18 @@ export interface Project {
   tech?: string[];
   link?: string;
   isCustom?: boolean;
+  /** Curadoria configurável: não remove o projeto do arquivo. */
+  featured?: boolean;
+  client?: string;
+  caseStudy?: Partial<CaseStudy>;
+}
+
+export interface CaseStudy {
+  context: string;
+  concept: string;
+  solution: string;
+  role: string;
+  credits: string;
 }
 
 export interface Inquiry {
