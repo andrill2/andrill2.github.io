@@ -23,7 +23,7 @@ export default defineConfig(() => {
       watch:
         process.env.DISABLE_HMR === 'true'
           ? null
-          : { ignored: ['**/public/clientes/**'] },
+          : { ignored: ['**/public/clientes/**', '**/dist-qa/**', '**/dist-qa-*/**'] },
     },
   };
 });
