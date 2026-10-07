@@ -5,6 +5,7 @@ import FenecoLogo from "./components/FenecoLogo";
 import IntroAnimation from "./components/IntroAnimation";
 import HomeProjectBackground from "./components/HomeProjectBackground";
 import QuotePlanner from "./components/QuotePlanner";
+import ServicesPage from "./components/ServicesPage";
 import { projects as legacyProjects } from "./data/projects";
 
 type View = "home" | "work" | "skills" | "about";
@@ -98,6 +99,13 @@ const homeCapacities=[baseSkills[1],baseSkills[2],baseSkills[0],baseSkills[3]];
 const FOX_ICONS=["fox_489994.svg","fox_3975050.svg","fox_2477621.svg","fox_2153090.svg"];
 
 export default function App(){
+  const [pathname,setPathname]=useState(()=>window.location.pathname);
+  useEffect(()=>{const update=()=>setPathname(window.location.pathname);window.addEventListener("popstate",update);return()=>window.removeEventListener("popstate",update)},[]);
+  if(pathname==="/servicos"||pathname.startsWith("/servicos/"))return <ServicesPage/>;
+  return <PortfolioApp/>;
+}
+
+function PortfolioApp(){
   const [introDone,setIntroDone]=useState(false),[opened,setOpened]=useState(false),[view,setView]=useState<View>("home"),[filter,setFilter]=useState<Discipline>("Todos"),[selected,setSelected]=useState<Work|null>(null),[clientWork,setClientWork]=useState<Work[]>([]),[locale,setLocale]=useState<"pt-BR"|"en">("pt-BR"),[quoteOpen,setQuoteOpen]=useState(false),[quoteItems,setQuoteItems]=useState<string[]>([]),[quoteLevels,setQuoteLevels]=useState<Record<string,string>>({});
   const dialogRef=useRef<HTMLDivElement>(null); const reduceMotion=useReducedMotion(); const archiveWork=[...portfolioWork.slice(0,legacyProjects.length),...clientWork]; const visible=filter==="Todos"?archiveWork:archiveWork.filter(x=>x.discipline===filter);
   const scrollToId=(id:string)=>document.getElementById(id)?.scrollIntoView({behavior:reduceMotion?"auto":"smooth",block:"start"});
